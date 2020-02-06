@@ -24,3 +24,7 @@ exports.validateInput = (text, notEmpty, isNumber) => {
   }
   return true;
 };
+
+exports.makeTrue = value => {
+  return value;
+};
