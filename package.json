@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack app.js --mode development --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "js",
@@ -24,5 +24,16 @@
   "devDependencies": {
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-E-Campbell/jsPractice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/C-E-Campbell/jsPractice/issues"
+  },
+  "homepage": "https://github.com/C-E-Campbell/jsPractice#readme",
+  "dependencies": {
+    "jest": "^25.1.0"
   }
 }
